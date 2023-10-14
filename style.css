@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-image: url(./bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.header {
+  width: 100%;
+  margin-top: 99px;
+}
+.wrapper {
+  display: flex;
+  width: 100%;
+  max-width: 1240px;
+  margin: 0 auto;
+  height: 100%;
+}
+.logo-link {
+}
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.nav-link {
+  color: #fff;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.header .wrapper {
+  justify-content: space-between;
+  border-bottom: 1px solid white;
+}
+.promo .wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.heading {
+  color: #fff;
+  margin-top: 177px;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 104.5%; /* 66.88px */
+  max-width: 528px;
+  margin-bottom: 13px;
+}
+.text {
+  color: #fff;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  max-width: 527px;
+}
+.button {
+  color: #fff;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  background-color: red;
+  padding: 10px 20px;
+  box-shadow: 0px 2px 4px 0px #831219;
+}
+.socials {
+  width: 100%;
+  display: flex;
+  max-width: 1240px;
+  margin: 0 auto;
+  height: 100%;
+  margin-top: 183px;
+  gap: 20px;
+}
+.popup-content {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.5) -3.55%,
+    rgba(255, 255, 255, 0) 120.14%
+  );
+  backdrop-filter: blur(11.703703880310059px);
+  height: 100%;
+  padding: 23px 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+}
+
+.popup-heading {
+  color: #fff;
+  font-size: 18.726px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  margin-top: 0px;
+  margin-bottom: 0;
+}
+.popup-text {
+  color: #fff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
+}
+.popup {
+  max-width: 296px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+}
+.popup-link {
+  background: var(--Primary-Color, #e30a17);
+  color: white;
+  display: flex;
+  height: 54px;
+  align-items: center;
+  justify-content: end;
+  padding-right: 34px;
+  gap: 15px;
+}
